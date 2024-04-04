@@ -30,15 +30,15 @@ node node resource_list.js [URL] [OutputPath]
 ```
 
 - [URL]: The URL of the website you want to analyze for tracker requests.
-- [OutputPath]: The file path where you want to save the JSON output.
+- [OutputPath]: The directory path where you want to save the JSON outputs.
 
 ### Example
 
 ```bash
-node node resource_list.js https://example.com output.json
+node node resource_list.js https://example.com outputDir
 ```
 
-This command will analyze the network requests made by `https://example.com` and save suspected tracker requests to `output.json`.
+This command will analyze the network requests made by `https://example.com` and save suspected tracker requests to `outputDir`.
 
 ### Notes
 
