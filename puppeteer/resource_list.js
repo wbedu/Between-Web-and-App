@@ -37,6 +37,16 @@ const monitorCanvasUsage = async (page) => {
   });
 };
 
+const formatPostData = (data) => {
+  try {
+    const jsonDump = JSON.parse(data);
+    // return as json object
+    return jsonDump;
+  } catch (e) {
+    // return unmodified
+    return data
+  }
+}
 const setupRequestInterception = async (page, filterEngine) => {
   await page.setRequestInterception(true);
 
@@ -46,7 +56,7 @@ const setupRequestInterception = async (page, filterEngine) => {
       url: request.url(),
       method: request.method(),
       headers: request.headers(),
-      postData: request.postData() || null,
+      postData: formatPostData(request.postData()) || null,
     };
 
     try {
