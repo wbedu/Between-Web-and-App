@@ -4,20 +4,12 @@
   "description": "",
   "main": "connect_electron_test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "adblock-rs": "^0.8.8",
     "axios": "^1.6.8",
     "puppeteer": "^22.6.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.29.1"
   }
 }

@@ -3,28 +3,23 @@ from adblockparser import AdblockRules, AdblockRule
 
 easylist_file = "easyprivacy.txt"
 
-
 def read_easylist_file():
-    with open(easylist_file, "r", encoding="utf-8") as f:
+    with open(easylist_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()[1:]  # Skip the first line
-        easylist_rules = [
-            line.strip() for line in lines if not line.startswith("!") and line.strip()
-        ]
+        easylist_rules = [line.strip() for line in lines if not line.startswith('!') and line.strip()]
         return easylist_rules
 
-
 def read_requestURLS(f):
-    with open(f, "r") as file:
+    with open(f, 'r') as file:
         lines = file.readlines()[1:]  # Skip the header
-        requestURLs = [line.strip().split("\t")[1] for line in lines]
+        requestURLs = [line.strip().split('\t')[1] for line in lines]
         return requestURLs
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     raw_rules = read_easylist_file()
     print(len(raw_rules))
 
-    rules = AdblockRules(raw_rules, use_re2=True, max_mem=512 * 1024 * 1024)
+    rules = AdblockRules(raw_rules, use_re2=True, max_mem=512*1024*1024)
     # requestURLs = read_requestURLS('web_skype.tsv')
     # requestURLs = read_requestURLS('electron_skype_test.tsv')
     # requestURLs = read_requestURLS("web_skype_test.tsv")
@@ -39,11 +34,12 @@ if __name__ == "__main__":
     # requestURLs = read_requestURLS('web_splice.tsv')
 
     # requestURLs = read_requestURLS('electron_wordpress.tsv')
-    requestURLs = read_requestURLS("electron_wordpress_test.tsv")
+    requestURLs = read_requestURLS('electron_wordpress_test.tsv')
     # requestURLs = read_requestURLS('web_wordpress.tsv')
 
     # requestURLs = read_requestURLS('electron_slack.tsv')
     # requestURLs = read_requestURLS('web_slack.tsv')
+
 
     matches = []
     for url in requestURLs:
