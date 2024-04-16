@@ -6,10 +6,7 @@ const { readFileSync } = require('fs');
 const path = require('path');
 
 const resources = [];
-const canvasUse = {
-  getContext: 0,
-  toDataURL: 0,
-};
+const canvasUse = {};
 
 const createFilterEngine = () => {
   const easylistFilters = readFileSync(
@@ -22,17 +19,22 @@ const createFilterEngine = () => {
 };
 
 const monitorCanvasUsage = async (page) => {
-  await page.evaluate(() => {
+  await page.exposeFunction('incrementCanvas', (field) => {
+    console.log(field, canvasUse);
+    canvasUse[field] += 1;
+  });
+
+  await page.evaluateOnNewDocument(() => {
     const originalGetContext = HTMLCanvasElement.prototype.getContext;
     const originalToDataURL = HTMLCanvasElement.prototype.toDataURL;
     HTMLCanvasElement.prototype.getContext = (...args) => {
-      canvasUse.getContext += 1;
-      return originalGetContext.apply(this, ...args);
+      window.incrementCanvas('getContext');
+      return originalGetContext.apply(this, args);
     };
     HTMLCanvasElement.prototype.toDataURL = (...args) => {
       console.log('Canvas fingerprinting attempt detected: toDataURL');
-      canvasUse.toDataURL += 1;
-      return originalToDataURL.apply(this, ...args);
+      window.incrementCanvas('toDataURL');
+      return originalToDataURL.apply(this, args);
     };
   });
 };
@@ -44,9 +46,9 @@ const formatPostData = (data) => {
     return jsonDump;
   } catch (e) {
     // return unmodified
-    return data
+    return data;
   }
-}
+};
 const setupRequestInterception = async (page, filterEngine) => {
   await page.setRequestInterception(true);
 
