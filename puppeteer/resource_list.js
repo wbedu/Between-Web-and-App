@@ -6,7 +6,7 @@ const { readFileSync } = require('fs');
 const path = require('path');
 
 const resources = [];
-const canvasUse = {};
+const classes = [];
 
 const createFilterEngine = () => {
   const easylistFilters = readFileSync(
@@ -18,24 +18,82 @@ const createFilterEngine = () => {
   return new Engine(filterSet, true);
 };
 
-const monitorCanvasUsage = async (page) => {
-  await page.exposeFunction('incrementCanvas', (field) => {
-    console.log(field, canvasUse);
-    canvasUse[field] += 1;
+const logFingerPrint = async (page) => {
+  page.exposeFunction('logPropertyAttempt', (name) => {
+    classes.push(name);
   });
 
-  await page.evaluateOnNewDocument(() => {
+  page.evaluateOnNewDocument(() => {
     const originalGetContext = HTMLCanvasElement.prototype.getContext;
     const originalToDataURL = HTMLCanvasElement.prototype.toDataURL;
-    HTMLCanvasElement.prototype.getContext = (...args) => {
-      window.incrementCanvas('getContext');
+    HTMLCanvasElement.prototype.getContext = (contextType, ...args) => {
+      if (contextType === 'webgl' || contextType === 'experimental-webgl') {
+        window.logPropertyAttempt('HTMLCanvasElement.getContext:webgl');
+      } else {
+        window.logPropertyAttempt('HTMLCanvasElement.getContext');
+      }
       return originalGetContext.apply(this, args);
     };
     HTMLCanvasElement.prototype.toDataURL = (...args) => {
       console.log('Canvas fingerprinting attempt detected: toDataURL');
-      window.incrementCanvas('toDataURL');
+      window.logPropertyAttempt('HTMLCanvasElement.toDataURL');
       return originalToDataURL.apply(this, args);
     };
+
+    // navigator
+    for (const prop in navigator) {
+      const originalProp = navigator[prop];
+      if (typeof originalProp === 'function') {
+        navigator[prop] = (...args) => {
+          window.logPropertyAttempt(`navigator.${prop}`);
+          return originalProp.apply(navigator, args);
+        };
+      } else {
+        Object.defineProperty(navigator, prop, {
+          get() {
+            window.logPropertyAttempt(`navigator.${prop}`);
+            return originalProp;
+          },
+        });
+      }
+    }
+
+    // screen
+    for (const prop in screen) {
+      const originalProp = screen[prop];
+      if (typeof originalProp === 'function') {
+        screen[prop] = (...args) => {
+          window.logPropertyAttempt(`screen.${prop}`);
+          return originalProp.apply(screen, args);
+        };
+      } else {
+        Object.defineProperty(screen, prop, {
+          get() {
+            window.logPropertyAttempt(`screen.${prop}`);
+            return originalProp;
+          },
+        });
+      }
+    }
+
+    // AudioContext
+    for (const prop in AudioContext.prototype) {
+      console.log(prop);
+      const originalProp = AudioContext.prototype[prop];
+      if (typeof originalProp === 'function') {
+        AudioContext.prototype[prop] = (...args) => {
+          window.logPropertyAttempt(`AudioContext.prototype.${prop}`);
+          return originalProp.apply(AudioContext.prototype, args);
+        };
+      } else {
+        Object.defineProperty(AudioContext.prototype, prop, {
+          get() {
+            window.logPropertyAttempt(`AudioContext.prototype.${prop}`);
+            return originalProp;
+          },
+        });
+      }
+    }
   });
 };
 
@@ -94,8 +152,8 @@ const writeOutput = (outputDir) => {
       JSON.stringify(resources, null, 2),
     ),
     asyncFileWrite(
-      path.join(outputDir, 'canvas.json'),
-      JSON.stringify(canvasUse, null, 2),
+      path.join(outputDir, 'classes.json'),
+      JSON.stringify([...new Set(classes)], null, 2),
     ),
   ]).then(
     () => process.exit(0),
@@ -103,26 +161,27 @@ const writeOutput = (outputDir) => {
 };
 
 (async () => {
+  const filterEngine = createFilterEngine();
   const browser = await puppeteer.launch({ headless: false });
   const [defaultPage] = await browser.pages();
-  const filterEngine = createFilterEngine();
-  setupRequestInterception(defaultPage, filterEngine);
-  monitorCanvasUsage(defaultPage);
 
   browser.on('targetcreated', async (target) => {
     if (target.type() === 'page') {
       const newPage = await target.page();
       newPage.setViewport({ width: 1366, height: 768 });
       setupRequestInterception(newPage, filterEngine);
-      monitorCanvasUsage(newPage);
+      logFingerPrint(newPage);
     }
   });
+
+  const firstTab = await browser.newPage();
+  defaultPage.close();
 
   const url = process.argv[2];
   const outputDir = process.argv[3] || 'Data';
 
   if (url) {
-    await defaultPage.goto(url);
+    await firstTab.goto(url);
   } else {
     browser.close();
     console.error(new Error('url was not provided'));
