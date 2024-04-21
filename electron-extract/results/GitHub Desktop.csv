@@ -1,0 +1,14 @@
+symbol,object,linenumber,filename,function
+release,e.constructor,230,out/GitHub Desktop_extract/unpackaged/crash.unminified.js,N
+getPrimaryDisplay,r,1273,out/GitHub Desktop_extract/unpackaged/main.unminified.js,f
+getAllDisplays,r,1312,out/GitHub Desktop_extract/unpackaged/main.unminified.js,anonymous function
+release,n,1137,out/GitHub Desktop_extract/unpackaged/main.unminified.js,o
+userInfo,n,6969,out/GitHub Desktop_extract/unpackaged/main.unminified.js,a
+hostname,on,27788,out/GitHub Desktop_extract/unpackaged/renderer.unminified.js,anonymous function
+version,n,44636,out/GitHub Desktop_extract/unpackaged/renderer.unminified.js,LE
+version,,45858,out/GitHub Desktop_extract/unpackaged/renderer.unminified.js,anonymous function
+version,,79748,out/GitHub Desktop_extract/unpackaged/renderer.unminified.js,anonymous function
+version,,79750,out/GitHub Desktop_extract/unpackaged/renderer.unminified.js,anonymous function
+release,r,8960,out/GitHub Desktop_extract/unpackaged/renderer.unminified.js,i
+release,e.constructor,17736,out/GitHub Desktop_extract/unpackaged/renderer.unminified.js,M
+userInfo,r,24188,out/GitHub Desktop_extract/unpackaged/renderer.unminified.js,a

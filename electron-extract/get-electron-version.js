@@ -63,7 +63,7 @@ const getWebSocketURL = async () => {
   browser.on('targetcreated', async (target) => {
     console.log(`New target of type: "${target.type()}"`);
     if (target.type() === 'page') {
-    //   const newPage = await target.page();
+      const newPage = await target.page();
       if (newPage) {
         const userAgent = await newPage.evaluate(() => navigator.userAgent);
         // console.log(`User Agent: ${userAgent}`);

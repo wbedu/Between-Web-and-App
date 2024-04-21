@@ -1,0 +1,8 @@
+symbol,object,linenumber,filename,function
+arch,os,84,out/WebTorrent_extract/app/telemetry.unminified.js,getSystemInfo
+cpus,os,87,out/WebTorrent_extract/app/telemetry.unminified.js,getSystemInfo
+totalmem,os,86,out/WebTorrent_extract/app/telemetry.unminified.js,getSystemInfo
+getAllDisplays,electron.remote.screen,71,out/WebTorrent_extract/app/telemetry.unminified.js,getScreenInfo
+totalmem,os,86,out/WebTorrent_extract/app/telemetry.unminified.js,getSystemInfo
+release,os,83,out/WebTorrent_extract/app/telemetry.unminified.js,getSystemInfo
+type,os,83,out/WebTorrent_extract/app/telemetry.unminified.js,getSystemInfo

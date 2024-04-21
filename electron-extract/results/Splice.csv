@@ -1,0 +1,98 @@
+symbol,object,linenumber,filename,function
+release,_this,118,out/Splice_extract/app/Semaphore.unminified.js,anonymous function
+cpus,os,62,out/Splice_extract/app/additional-context.unminified.js,additionalContext
+getPrimaryDisplay,electron.screen,19,out/Splice_extract/app/additional-context.unminified.js,_setPrimaryDisplayInfo
+getLocale,electron.app,35,out/Splice_extract/app/additional-context.unminified.js,anonymous function
+hostname,os,46,out/Splice_extract/app/client.unminified.js,global scope
+type,exports.warn,33,out/Splice_extract/app/common.unminified.js,anonymous function
+type,exports.warn,49,out/Splice_extract/app/common.unminified.js,anonymous function
+arch,os,197,out/Splice_extract/app/context.unminified.js,getDeviceContext
+cpus,os,203,out/Splice_extract/app/context.unminified.js,getDeviceContext
+totalmem,os,199,out/Splice_extract/app/context.unminified.js,getDeviceContext
+freemem,os,107,out/Splice_extract/app/context.unminified.js,_updateContext
+freemem,os,200,out/Splice_extract/app/context.unminified.js,getDeviceContext
+platform,os,127,out/Splice_extract/app/context.unminified.js,getOsContext
+totalmem,os,199,out/Splice_extract/app/context.unminified.js,getDeviceContext
+release,os,136,out/Splice_extract/app/context.unminified.js,getOsContext
+release,os,292,out/Splice_extract/app/context.unminified.js,getDarwinInfo
+release,os,294,out/Splice_extract/app/context.unminified.js,getDarwinInfo
+release,os,330,out/Splice_extract/app/context.unminified.js,getLinuxInfo
+arch,os,632,out/Splice_extract/app/cpu.unminified.js,anonymous function
+cpus,os,656,out/Splice_extract/app/cpu.unminified.js,anonymous function
+cpus,os,656,out/Splice_extract/app/cpu.unminified.js,anonymous function
+cpus,os,657,out/Splice_extract/app/cpu.unminified.js,anonymous function
+cpus,os,739,out/Splice_extract/app/cpu.unminified.js,anonymous function
+cpus,os,739,out/Splice_extract/app/cpu.unminified.js,anonymous function
+cpus,os,740,out/Splice_extract/app/cpu.unminified.js,anonymous function
+cpus,os,937,out/Splice_extract/app/cpu.unminified.js,getCpuCurrentSpeedSync
+cpus,os,1563,out/Splice_extract/app/cpu.unminified.js,anonymous function
+cpus,os,1709,out/Splice_extract/app/cpu.unminified.js,anonymous function
+release,,46,out/Splice_extract/app/delayed_stream.unminified.js,anonymous function
+type,,17,out/Splice_extract/app/dockerSocket.unminified.js,global scope
+arch,os,35,out/Splice_extract/app/electronPlatform.unminified.js,makeElectronPlatform
+platform,os,36,out/Splice_extract/app/electronPlatform.unminified.js,makeElectronPlatform
+release,os,37,out/Splice_extract/app/electronPlatform.unminified.js,makeElectronPlatform
+type,,2071,out/Splice_extract/app/escodegen.unminified.js,anonymous function
+userInfo,,25,out/Splice_extract/app/find-python.unminified.js,getOsUserInfo
+userInfo,os,283,out/Splice_extract/app/install.unminified.js,eaccesFallback
+hostname,os,141,out/Splice_extract/app/layouts.unminified.js,hostname
+platform,os,11,out/Splice_extract/app/lockfile.unminified.js,global scope
+release,,58732,out/Splice_extract/app/main.17bdb6bb99a97845.unminified.js,anonymous function
+release,,58488,out/Splice_extract/app/main.c6f1d3ab9c67d63d.unminified.js,anonymous function
+totalmem,os,146,out/Splice_extract/app/memory.unminified.js,anonymous function
+totalmem,os,148,out/Splice_extract/app/memory.unminified.js,anonymous function
+totalmem,os,149,out/Splice_extract/app/memory.unminified.js,anonymous function
+totalmem,os,166,out/Splice_extract/app/memory.unminified.js,anonymous function
+totalmem,os,364,out/Splice_extract/app/memory.unminified.js,anonymous function
+freemem,os,147,out/Splice_extract/app/memory.unminified.js,anonymous function
+freemem,os,148,out/Splice_extract/app/memory.unminified.js,anonymous function
+freemem,os,149,out/Splice_extract/app/memory.unminified.js,anonymous function
+freemem,os,151,out/Splice_extract/app/memory.unminified.js,anonymous function
+freemem,os,168,out/Splice_extract/app/memory.unminified.js,anonymous function
+totalmem,os,146,out/Splice_extract/app/memory.unminified.js,anonymous function
+totalmem,os,148,out/Splice_extract/app/memory.unminified.js,anonymous function
+totalmem,os,149,out/Splice_extract/app/memory.unminified.js,anonymous function
+totalmem,os,166,out/Splice_extract/app/memory.unminified.js,anonymous function
+totalmem,os,364,out/Splice_extract/app/memory.unminified.js,anonymous function
+release,._semaphore,38,out/Splice_extract/app/mutex.unminified.js,anonymous function
+arch,os,171,out/Splice_extract/app/osinfo.unminified.js,anonymous function
+hostname,os,172,out/Splice_extract/app/osinfo.unminified.js,anonymous function
+release,os,170,out/Splice_extract/app/osinfo.unminified.js,anonymous function
+release,os,373,out/Splice_extract/app/osinfo.unminified.js,versions
+totalmem,os,683,out/Splice_extract/app/processes.unminified.js,anonymous function
+totalmem,os,901,out/Splice_extract/app/processes.unminified.js,anonymous function
+totalmem,os,1069,out/Splice_extract/app/processes.unminified.js,anonymous function
+totalmem,os,1079,out/Splice_extract/app/processes.unminified.js,anonymous function
+totalmem,os,683,out/Splice_extract/app/processes.unminified.js,anonymous function
+totalmem,os,901,out/Splice_extract/app/processes.unminified.js,anonymous function
+totalmem,os,1069,out/Splice_extract/app/processes.unminified.js,anonymous function
+totalmem,os,1079,out/Splice_extract/app/processes.unminified.js,anonymous function
+arch,os,40,out/Splice_extract/app/rebuild.unminified.js,global scope
+hostname,os,218,out/Splice_extract/app/service-config.unminified.js,validateAndSelectCanaryConfig
+platform,os,247,out/Splice_extract/app/storage.spec.unminified.js,anonymous function
+platform,os,261,out/Splice_extract/app/storage.spec.unminified.js,anonymous function
+release,os,72,out/Splice_extract/app/supports-colors.unminified.js,supportsColor
+arch,os,582,out/Splice_extract/app/system.unminified.js,anonymous function
+totalmem,os,554,out/Splice_extract/app/system.unminified.js,anonymous function
+totalmem,os,584,out/Splice_extract/app/system.unminified.js,anonymous function
+totalmem,os,554,out/Splice_extract/app/system.unminified.js,anonymous function
+totalmem,os,584,out/Splice_extract/app/system.unminified.js,anonymous function
+release,os,127,out/Splice_extract/app/system.unminified.js,anonymous function
+release,os,127,out/Splice_extract/app/system.unminified.js,anonymous function
+release,os,128,out/Splice_extract/app/system.unminified.js,anonymous function
+release,os,601,out/Splice_extract/app/system.unminified.js,anonymous function
+platform,os,34,out/Splice_extract/app/tmp.unminified.js,global scope
+platform,_os,3649,out/Splice_extract/app/tsc.unminified.js,getNodeSystem
+platform,_os,5945,out/Splice_extract/app/tsserver.unminified.js,getNodeSystem
+platform,os,156145,out/Splice_extract/app/tsserver.unminified.js,anonymous function
+platform,_os,6211,out/Splice_extract/app/tsserverlibrary.unminified.js,getNodeSystem
+platform,_os,6211,out/Splice_extract/app/typescript.unminified.js,getNodeSystem
+platform,_os,6211,out/Splice_extract/app/typescriptServices.unminified.js,getNodeSystem
+platform,_os,5937,out/Splice_extract/app/typingsInstaller.unminified.js,getNodeSystem
+platform,os,48,out/Splice_extract/app/utils.spec.unminified.js,anonymous function
+getAllDisplays,electron.screen,240,out/Splice_extract/app/window.manager.unminified.js,global scope
+release,sync,96,out/Splice_extract/app/withTimeout.unminified.js,anonymous function
+version,yargs,45,out/Splice_extract/app/yargs-factory.unminified.js,anonymous function
+version,,880,out/Splice_extract/app/yargs-factory.unminified.js,global scope
+version,,898,out/Splice_extract/app/yargs-factory.unminified.js,global scope
+getLocale,.y18n,538,out/Splice_extract/app/yargs-factory.unminified.js,global scope

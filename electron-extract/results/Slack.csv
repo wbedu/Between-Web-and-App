@@ -1,0 +1,91 @@
+symbol,object,linenumber,filename,function
+version,commander,24,out/Slack_extract/app-arm64/1to2.unminified.js,anonymous function
+release,,256,out/Slack_extract/app-arm64/497.bundle.unminified.js,anonymous function
+arch,os,356,out/Slack_extract/app-arm64/appdmg.unminified.js,anonymous function
+platform,y,2485,out/Slack_extract/app-arm64/boot.bundle.unminified.js,anonymous function
+type,A,1435,out/Slack_extract/app-arm64/boot.bundle.unminified.js,anonymous function
+type,A,1440,out/Slack_extract/app-arm64/boot.bundle.unminified.js,anonymous function
+platform,,3,out/Slack_extract/app-arm64/detect-libc.unminified.js,global scope
+arch,a,2352,out/Slack_extract/app-arm64/main.bundle.unminified.js,f
+cpus,ko,17942,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+totalmem,ko,17943,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,u.screen,1874,out/Slack_extract/app-arm64/main.bundle.unminified.js,z
+getPrimaryDisplay,n.screen,13464,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,n.screen,16519,out/Slack_extract/app-arm64/main.bundle.unminified.js,c1
+getPrimaryDisplay,n.screen,16824,out/Slack_extract/app-arm64/main.bundle.unminified.js,W1
+getPrimaryDisplay,n.screen,16896,out/Slack_extract/app-arm64/main.bundle.unminified.js,H1
+getPrimaryDisplay,n.screen,16896,out/Slack_extract/app-arm64/main.bundle.unminified.js,H1
+getPrimaryDisplay,n.screen,16899,out/Slack_extract/app-arm64/main.bundle.unminified.js,H1
+getPrimaryDisplay,Bt.screen,29076,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+getAllDisplays,u.screen,1985,out/Slack_extract/app-arm64/main.bundle.unminified.js,De
+getAllDisplays,n.screen,16267,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+getAllDisplays,n.screen,19476,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+hostname,ko,12658,out/Slack_extract/app-arm64/main.bundle.unminified.js,$E
+hostname,os,27247,out/Slack_extract/app-arm64/main.bundle.unminified.js,li
+platform,a,2352,out/Slack_extract/app-arm64/main.bundle.unminified.js,f
+platform,d,38102,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+platform,l,61819,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+totalmem,ko,17943,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+release,a,2352,out/Slack_extract/app-arm64/main.bundle.unminified.js,f
+release,ko,12580,out/Slack_extract/app-arm64/main.bundle.unminified.js,zE
+release,ko,16236,out/Slack_extract/app-arm64/main.bundle.unminified.js,G_
+release,i,20007,out/Slack_extract/app-arm64/main.bundle.unminified.js,Z
+release,i,20007,out/Slack_extract/app-arm64/main.bundle.unminified.js,Z
+release,c,20561,out/Slack_extract/app-arm64/main.bundle.unminified.js,C
+type,be,32693,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+type,be,32698,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+type,n,40342,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+type,o,41217,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+getGPUFeatureStatus,n.app,16102,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+getGPUFeatureStatus,n.app,17944,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+getGPUInfo,n.app,4341,out/Slack_extract/app-arm64/main.bundle.unminified.js,Zi
+getGPUInfo,n.app,17941,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+getLocale,n.app,18015,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+getLocale,Bt.app,29044,out/Slack_extract/app-arm64/main.bundle.unminified.js,anonymous function
+release,os,109,out/Slack_extract/app-arm64/main.unminified.js,errorMessage
+type,os,109,out/Slack_extract/app-arm64/main.unminified.js,errorMessage
+version,commander,24,out/Slack_extract/app-x64/1to2.unminified.js,anonymous function
+release,,256,out/Slack_extract/app-x64/497.bundle.unminified.js,anonymous function
+arch,os,356,out/Slack_extract/app-x64/appdmg.unminified.js,anonymous function
+platform,y,2485,out/Slack_extract/app-x64/boot.bundle.unminified.js,anonymous function
+type,A,1435,out/Slack_extract/app-x64/boot.bundle.unminified.js,anonymous function
+type,A,1440,out/Slack_extract/app-x64/boot.bundle.unminified.js,anonymous function
+platform,,3,out/Slack_extract/app-x64/detect-libc.unminified.js,global scope
+arch,a,2352,out/Slack_extract/app-x64/main.bundle.unminified.js,f
+cpus,ko,17942,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+totalmem,ko,17943,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,u.screen,1874,out/Slack_extract/app-x64/main.bundle.unminified.js,z
+getPrimaryDisplay,n.screen,13464,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,n.screen,16519,out/Slack_extract/app-x64/main.bundle.unminified.js,c1
+getPrimaryDisplay,n.screen,16824,out/Slack_extract/app-x64/main.bundle.unminified.js,W1
+getPrimaryDisplay,n.screen,16896,out/Slack_extract/app-x64/main.bundle.unminified.js,H1
+getPrimaryDisplay,n.screen,16896,out/Slack_extract/app-x64/main.bundle.unminified.js,H1
+getPrimaryDisplay,n.screen,16899,out/Slack_extract/app-x64/main.bundle.unminified.js,H1
+getPrimaryDisplay,Bt.screen,29076,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+getAllDisplays,u.screen,1985,out/Slack_extract/app-x64/main.bundle.unminified.js,De
+getAllDisplays,n.screen,16267,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+getAllDisplays,n.screen,19476,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+hostname,ko,12658,out/Slack_extract/app-x64/main.bundle.unminified.js,$E
+hostname,os,27247,out/Slack_extract/app-x64/main.bundle.unminified.js,li
+platform,a,2352,out/Slack_extract/app-x64/main.bundle.unminified.js,f
+platform,d,38102,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+platform,l,61819,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+totalmem,ko,17943,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+release,a,2352,out/Slack_extract/app-x64/main.bundle.unminified.js,f
+release,ko,12580,out/Slack_extract/app-x64/main.bundle.unminified.js,zE
+release,ko,16236,out/Slack_extract/app-x64/main.bundle.unminified.js,G_
+release,i,20007,out/Slack_extract/app-x64/main.bundle.unminified.js,Z
+release,i,20007,out/Slack_extract/app-x64/main.bundle.unminified.js,Z
+release,c,20561,out/Slack_extract/app-x64/main.bundle.unminified.js,C
+type,be,32693,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+type,be,32698,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+type,n,40342,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+type,o,41217,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+getGPUFeatureStatus,n.app,16102,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+getGPUFeatureStatus,n.app,17944,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+getGPUInfo,n.app,4341,out/Slack_extract/app-x64/main.bundle.unminified.js,Zi
+getGPUInfo,n.app,17941,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+getLocale,n.app,18015,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+getLocale,Bt.app,29044,out/Slack_extract/app-x64/main.bundle.unminified.js,anonymous function
+release,os,109,out/Slack_extract/app-x64/main.unminified.js,errorMessage
+type,os,109,out/Slack_extract/app-x64/main.unminified.js,errorMessage
