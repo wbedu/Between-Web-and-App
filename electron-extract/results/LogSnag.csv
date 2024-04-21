@@ -1,0 +1,16 @@
+symbol,object,linenumber,filename,function
+release,,46,out/LogSnag_extract/app/delayed_stream.unminified.js,anonymous function
+type,e,819,out/LogSnag_extract/app/firebase-storage.unminified.js,Ue
+type,t,29643,out/LogSnag_extract/app/firebase.unminified.js,XD
+release,t,79791,out/LogSnag_extract/app/index-d5be7544.unminified.js,O
+release,t,79888,out/LogSnag_extract/app/index-d5be7544.unminified.js,P
+type,blob,1852,out/LogSnag_extract/app/index.browser.cjs.unminified.js,determineContentType_
+type,blob,1847,out/LogSnag_extract/app/index.browser.esm.unminified.js,determineContentType_
+type,blob,1797,out/LogSnag_extract/app/index.browser.esm2017.unminified.js,determineContentType_
+type,blob,1790,out/LogSnag_extract/app/index.browser.esm5.unminified.js,determineContentType_
+type,,136,out/LogSnag_extract/app/response.unminified.js,send
+type,,146,out/LogSnag_extract/app/response.unminified.js,send
+type,,156,out/LogSnag_extract/app/response.unminified.js,send
+type,,361,out/LogSnag_extract/app/response.unminified.js,sendStatus
+type,,692,out/LogSnag_extract/app/response.unminified.js,attachment
+release,os,105,out/LogSnag_extract/app/windowsExecutableCodeSignatureVerifier.unminified.js,isOldWin6

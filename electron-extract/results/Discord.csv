@@ -1,0 +1,20 @@
+symbol,object,linenumber,filename,function
+cpus,os,59,out/Discord_extract/app/additional-context.unminified.js,global scope
+getPrimaryDisplay,electron.screen,78,out/Discord_extract/app/additional-context.unminified.js,global scope
+getLocale,electron.app,33,out/Discord_extract/app/additional-context.unminified.js,anonymous function
+getGPUInfo,app,80,out/Discord_extract/app/bootstrap.unminified.js,setGPUFlags
+hostname,os,46,out/Discord_extract/app/client.unminified.js,global scope
+arch,os,219,out/Discord_extract/app/context.unminified.js,getDeviceContext
+cpus,os,225,out/Discord_extract/app/context.unminified.js,getDeviceContext
+totalmem,os,221,out/Discord_extract/app/context.unminified.js,getDeviceContext
+freemem,os,100,out/Discord_extract/app/context.unminified.js,global scope
+freemem,os,222,out/Discord_extract/app/context.unminified.js,getDeviceContext
+platform,os,149,out/Discord_extract/app/context.unminified.js,getOsContext
+totalmem,os,221,out/Discord_extract/app/context.unminified.js,getDeviceContext
+release,os,158,out/Discord_extract/app/context.unminified.js,getOsContext
+release,os,314,out/Discord_extract/app/context.unminified.js,getDarwinInfo
+release,os,316,out/Discord_extract/app/context.unminified.js,getDarwinInfo
+release,os,352,out/Discord_extract/app/context.unminified.js,getLinuxInfo
+release,,46,out/Discord_extract/app/delayed_stream.unminified.js,anonymous function
+release,_os.default,196,out/Discord_extract/app/moduleUpdater.unminified.js,checkOSVersionSupported
+release,_os.default,25,out/Discord_extract/app/processUtils.unminified.js,isWindowsVersionOrEarlier

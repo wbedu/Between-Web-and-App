@@ -1,0 +1,93 @@
+symbol,object,linenumber,filename,function
+arch,p,5844,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+arch,a,26923,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+arch,a,26938,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+arch,a,27084,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+arch,c,30800,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+arch,c,30800,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+arch,o,46060,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+arch,g,48503,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+arch,o,58280,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+arch,o,58294,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+arch,fs,87399,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Lc
+arch,s,131425,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+arch,s,137169,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+cpus,o,46060,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+cpus,o,46060,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+cpus,o,46060,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+cpus,g,48503,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+cpus,g,48503,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+cpus,g,48503,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+cpus,i,94882,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+cpus,i,94894,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+cpus,s,119447,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Xt
+cpus,s,119447,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Xt
+totalmem,o,46060,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+totalmem,g,48503,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+totalmem,s,119447,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Xt
+getPrimaryDisplay,a.screen,5965,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,a.screen,5994,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,i.screen,8474,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,i.screen,23026,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,i.screen,23549,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,i.screen,68063,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,i.screen,68090,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,o.screen,114886,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,i.screen,119586,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Xt
+getPrimaryDisplay,i.screen,123827,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getPrimaryDisplay,i.screen,123876,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getAllDisplays,i,6993,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getAllDisplays,i.screen,68022,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getAllDisplays,i.screen,68062,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getAllDisplays,i.screen,68136,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getAllDisplays,r.screen,102158,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getAllDisplays,i.screen,121186,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,L
+getAllDisplays,i.screen,123875,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getAllDisplays,i.screen,123890,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+hostname,s,119447,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Xt
+freemem,s,8195,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+platform,p,6871,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+platform,i,49919,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+platform,i,49924,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+platform,d,94189,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+platform,a,114956,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+totalmem,o,46060,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+totalmem,g,48503,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+totalmem,s,119447,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Xt
+release,p,5536,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Te
+release,p,5539,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Ee
+release,p,5542,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Ae
+release,p,5656,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+release,p,5658,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+release,p,5660,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+release,p,5662,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+release,p,5664,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+release,p,5667,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+release,p,5687,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+release,i,12994,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+release,fs,86858,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+release,fs,87399,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Lc
+release,,108848,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+release,s,120279,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+release,s,120279,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+release,,123490,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+userInfo,p,5443,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,we
+type,p,5539,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Ee
+type,p,5542,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Ae
+type,p,5656,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+type,p,5658,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+type,p,5660,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+type,p,5662,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+type,p,5664,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+type,p,5669,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+type,i,12994,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+type,i,45668,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+type,i,45674,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+type,i,45674,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+type,fs,86858,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+type,fs,87399,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,Lc
+getGPUFeatureStatus,a.app,7246,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getLocale,i.app,8058,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,e
+getLocale,i.app,9927,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getLocale,l.app,35300,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function
+getSystemLocale,_,9931,out/Microsoft Teams classic_extract/app/main.bundle.unminified.js,anonymous function

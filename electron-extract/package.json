@@ -1,0 +1,23 @@
+{
+  "name": "electron-extract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/parser": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/traverse": "^7.24.1",
+    "@electron/asar": "^3.2.9",
+    "axios": "^1.6.8",
+    "babel": "^6.23.0",
+    "puppeteer": "^22.6.4",
+    "unminify": "^2.0.0"
+  }
+}

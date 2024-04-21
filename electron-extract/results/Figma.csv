@@ -1,0 +1,5 @@
+symbol,object,linenumber,filename,function
+getPrimaryDisplay,at.screen,10572,out/Figma_extract/app/main.unminified.js,_O
+release,Om,6613,out/Figma_extract/app/main.unminified.js,anonymous function
+getGPUFeatureStatus,ve.app,8499,out/Figma_extract/app/main.unminified.js,ZP
+getLocale,ul.app,8300,out/Figma_extract/app/main.unminified.js,ll

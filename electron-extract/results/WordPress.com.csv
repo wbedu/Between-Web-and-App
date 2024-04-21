@@ -1,0 +1,11 @@
+symbol,object,linenumber,filename,function
+symbol,object,linenumber,filename,function
+release,,46,out/WordPress.com_extract/unpackaged/delayed_stream.unminified.js,anonymous function
+type,,552,out/WordPress.com_extract/unpackaged/request-base.unminified.js,anonymous function
+type,,567,out/WordPress.com_extract/unpackaged/request-base.unminified.js,anonymous function
+type,utils,69,out/WordPress.com_extract/unpackaged/response-base.unminified.js,anonymous function
+type,,638,out/WordPress.com_extract/unpackaged/superagent.unminified.js,anonymous function
+type,,653,out/WordPress.com_extract/unpackaged/superagent.unminified.js,anonymous function
+type,utils,828,out/WordPress.com_extract/unpackaged/superagent.unminified.js,anonymous function
+release,os,72,out/WordPress.com_extract/unpackaged/supports-colors.unminified.js,supportsColor
+release,,162,out/WordPress.com_extract/unpackaged/windowsExecutableCodeSignatureVerifier.unminified.js,isOldWin6
