@@ -4,3 +4,4 @@
 **/out
 *.txt
 docker-sandbox/*.so
+.DS_Store
