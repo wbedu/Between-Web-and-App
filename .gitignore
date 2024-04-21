@@ -3,3 +3,4 @@
 **/Data
 **/out
 *.txt
+docker-sandbox/*.so
