@@ -1,3 +1,6 @@
+/* eslint-disable no-restricted-globals,guard-for-in,no-restricted-syntax */
+// the above disable eslint which in a normal production/dev environment would remain enabled.
+
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const readline = require('readline');
@@ -6,7 +9,7 @@ const { readFileSync } = require('fs');
 const path = require('path');
 
 const resources = [];
-const classes = [];
+const functionCalls = [];
 
 const createFilterEngine = () => {
   const easylistFilters = readFileSync(
@@ -20,13 +23,15 @@ const createFilterEngine = () => {
 
 const logFingerPrint = async (page) => {
   page.exposeFunction('logPropertyAttempt', (name) => {
-    classes.push(name);
+    functionCalls.push(name);
   });
 
+  // eslint-disable-next no-restricted-syntax
   page.evaluateOnNewDocument(() => {
     const originalGetContext = HTMLCanvasElement.prototype.getContext;
     const originalToDataURL = HTMLCanvasElement.prototype.toDataURL;
-    HTMLCanvasElement.prototype.getContext = (contextType, ...args) => {
+    HTMLCanvasElement.prototype.getContext = (args) => {
+      const [contextType] = args;
       if (contextType === 'webgl' || contextType === 'experimental-webgl') {
         window.logPropertyAttempt('HTMLCanvasElement.getContext:webgl');
       } else {
@@ -78,7 +83,6 @@ const logFingerPrint = async (page) => {
 
     // AudioContext
     for (const prop in AudioContext.prototype) {
-      console.log(prop);
       const originalProp = AudioContext.prototype[prop];
       if (typeof originalProp === 'function') {
         AudioContext.prototype[prop] = (...args) => {
@@ -116,7 +120,9 @@ const setupRequestInterception = async (page, filterEngine) => {
       url: request.url(),
       method: request.method(),
       headers: request.headers(),
-      postData: formatPostData(request.postData()) || null,
+      // dropping post data since we will not be doing any furthur analysis on it
+      // also risks of exposing pii when publish data
+      // postData: formatPostData(request.postData()) || null,
     };
 
     try {
@@ -152,8 +158,8 @@ const writeOutput = (outputDir) => {
       JSON.stringify(resources, null, 2),
     ),
     asyncFileWrite(
-      path.join(outputDir, 'classes.json'),
-      JSON.stringify([...new Set(classes)], null, 2),
+      path.join(outputDir, 'functionCalls.json'),
+      JSON.stringify([...new Set(functionCalls)], null, 2),
     ),
   ]).then(
     () => process.exit(0),
